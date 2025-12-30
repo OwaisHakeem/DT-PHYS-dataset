@@ -12,7 +12,7 @@ framework. The protocol incorporates a WESAD-inspired session structure while ma
 
 reproducible design suitable for system-level validation.
 
-1\. Experimental Role within the FL–DT Framework
+1. Experimental Role within the FL–DT Framework
 
 The experiment functions as a real-world healthcare case study complementing simulation-based
 
@@ -20,7 +20,7 @@ evaluations. Physiological signals populate and update a human-centric Digital T
 
 Learning enables collaborative optimisation without transferring raw data.
 
-2\. Sensor Modalities
+2. Sensor Modalities
 
 • Electrocardiogram (ECG)
 
@@ -36,7 +36,7 @@ Learning enables collaborative optimisation without transferring raw data.
 
 • Body position detection
 
-3\. Revised Session Protocol (WESAD-Inspired)
+3. Revised Session Protocol (WESAD-Inspired)
 
 The session protocol adopts a structured baseline–task–recovery design inspired by WESAD, while
 
@@ -68,7 +68,7 @@ In addition to phase labels, a simple subjective rating (0–10) may be recorded
 
 provide coarse ground-truth annotation without introducing participant burden.
 
-4\. Data Logging and Dataset Structure
+4. Data Logging and Dataset Structure
 
 Signals are logged as raw, time-stamped streams using a long-format schema to preserve fidelity and
 
@@ -76,9 +76,9 @@ accommodate heterogeneous sampling rates.
 
 Long-format schema:
 
-timestamp\_ms, phase, sensor\_type, value
+timestamp_ms, phase, sensor_type, value
 
-5\. Communication Overhead Definition and Measurement
+5. Communication Overhead Definition and Measurement
 
 Communication overhead is defined as the total number of bytes transmitted to support Federated
 
@@ -104,7 +104,7 @@ data representation assumptions.
 
 • Report per-client, per-round, and cumulative overhead.
 
-6\. Reporting and Reproducibility
+6. Reporting and Reproducibility
 
 All reported communication overhead values specify whether they represent payload-only or
 
@@ -119,4 +119,3 @@ The revised protocol strengthens behavioural control while preserving the origin
 adopting a WESAD-inspired session structure, the experiment achieves improved comparability,
 
 interpretability, and methodological clarity.
-
