@@ -1,4 +1,4 @@
-# eHealth Digital Twin + Federated Learning (DT–FL)
+# DT-PHYS
 
 A research-grade multisensor physiological data pipeline designed for Digital Twin modelling and Federated Learning experiments.
 
