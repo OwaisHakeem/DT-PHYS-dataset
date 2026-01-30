@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this repository or dataset, please cite it as below."
 type: software
-title: "eHealth Digital Twin + Federated Learning (DT-FL): Multisensor Pipeline"
+title: "DT-PHYS: Digital Twin Physiological Dataset"
 authors:
   - family-names: "Hakeem"
     given-names: "Owais"
@@ -9,11 +9,12 @@ repository-code: "https://github.com/OwaisHakeem/ehealth-digital-twin-federated-
 url: "https://github.com/OwaisHakeem/ehealth-digital-twin-federated-learning"
 abstract: "A reproducible multisensor physiological dataset pipeline to support Digital Twin modelling (Eclipse Ditto) and Federated Learning experiments."
 keywords:
+  - "DT-PHYS"
   - "digital twin"
   - "federated learning"
   - "physiological signals"
   - "multisensor"
   - "reproducible research"
 license: "MIT"
-version: "0.1.0"
+version: "1.0"
 date-released: "2026-01-30"
